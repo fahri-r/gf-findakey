@@ -18,6 +18,7 @@ public class level2 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1160, 600, 1); 
+        timer.timer=33*15;
         prepare();
     }
     
@@ -80,5 +81,7 @@ public class level2 extends World
         addObject(kunci,64,600-64);
         player player = new player();
         addObject(player,52,288);
+        timer timer = new timer();
+        addObject(timer,104,119);
     }
 }

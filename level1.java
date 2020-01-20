@@ -17,9 +17,11 @@ public class level1 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1160, 600, 1);
+        timer.timer=33*10;
         prepare();
         showText("Get the key to open the door",getWidth()/2,getHeight()/2);
     }
+    
     public void prepare()
     {
         pintu pintu = new pintu();
@@ -66,5 +68,7 @@ public class level1 extends World
         addObject(rumput18,64*18,600);
         kunci kunci = new kunci();
         addObject(kunci,64*4,600-64);
+        timer timer = new timer();
+        addObject(timer,104,119);
     }
 }

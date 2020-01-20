@@ -17,6 +17,7 @@ public class level4 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1160, 600, 1);
+        timer.timer=33*20;
         prepare();
         }
     
@@ -89,5 +90,7 @@ public class level4 extends World
         addObject(rumput19,64*12,600-64*4);
         tombol tombol = new tombol();
         addObject(tombol,64*12,600-64*5);
+        timer timer = new timer();
+        addObject(timer,104,119);
     }
 }

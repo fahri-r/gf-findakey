@@ -27,8 +27,9 @@ public class start extends button
         if (Greenfoot.mouseClicked(this))  
         {  
             Greenfoot.setWorld(new level1());
+            if(menu.music==1){
             menu.backgroundMusic.stop();
-            menu.music=0;
+            menu.music=0;}
         }  
     }
 }

@@ -17,7 +17,8 @@ public class level3 extends World
     public level3()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1160, 600, 1); 
+        super(1160, 600, 1);
+        timer.timer=33*15; 
         prepare();
     }
     
@@ -111,5 +112,7 @@ public class level3 extends World
         addObject(rumput19,64*11,600-64*2);
         rumput rumput20 = new rumput();
         addObject(rumput20,64*12,600-64*2);
+        timer timer = new timer();
+        addObject(timer,104,119);
     }
 }
