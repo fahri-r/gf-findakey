@@ -8,4 +8,6 @@ comment3.params=
 comment3.target=void\ kenaduri()
 comment4.params=
 comment4.target=void\ kenagergaji()
-numComments=5
+comment5.params=
+comment5.target=void\ dapetKunci()
+numComments=6

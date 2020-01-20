@@ -17,7 +17,7 @@ public class menu extends World
     public static int music=0;
     public menu()
     {    
-        super(800, 600, 1); 
+        super(1160, 600, 1); 
         GreenfootImage bg = new GreenfootImage("background.png");
         bg.scale(getWidth(), getHeight());
         setBackground(bg);

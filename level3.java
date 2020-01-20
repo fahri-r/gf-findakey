@@ -17,7 +17,7 @@ public class level3 extends World
     public level3()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1); 
+        super(1160, 600, 1); 
         prepare();
     }
     
@@ -54,6 +54,18 @@ public class level3 extends World
         addObject(tanah12,64*11,600);
         tanah tanah13 = new tanah();
         addObject(tanah13,64*12,600);
+        tanah tanah26 = new tanah();
+        addObject(tanah26,64*13,600);
+        tanah tanah20 = new tanah();
+        addObject(tanah20,64*14,600);
+        tanah tanah16 = new tanah();
+        addObject(tanah16,64*15,600);
+        tanah tanah17 = new tanah();
+        addObject(tanah17,64*16,600);
+        tanah tanah19 = new tanah();
+        addObject(tanah19,64*17,600);
+        tanah tanah18 = new tanah();
+        addObject(tanah18,64*18,600);
         //tingkat 2
         tanah tanah14 = new tanah();
         addObject(tanah14,0,600-64);
@@ -65,8 +77,8 @@ public class level3 extends World
         addObject(duri16,64*3,600-64);
         tanah tanah22 = new tanah();
         addObject(tanah22,64*4,600-64);
-        tanah tanah17 = new tanah();
-        addObject(tanah17,64*5,600-64);
+        tanah tanah24 = new tanah();
+        addObject(tanah24,64*5,600-64);
         duri duri3 = new duri();
         addObject(duri3,64*6,600-64);
         duri duri18 = new duri();
@@ -77,8 +89,8 @@ public class level3 extends World
         addObject(duri19,64*9,600-64);
         duri duri5 = new duri();
         addObject(duri5,64*10,600-64);
-        tanah tanah20 = new tanah();
-        addObject(tanah20,64*11,600-64);
+        tanah tanah25 = new tanah();
+        addObject(tanah25,64*11,600-64);
         tanah tanah21 = new tanah();
         addObject(tanah21,64*12,600-64);
         kunci kunci = new kunci();

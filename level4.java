@@ -16,7 +16,7 @@ public class level4 extends World
     public level4()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1);
+        super(1160, 600, 1);
         prepare();
         }
     
@@ -56,15 +56,27 @@ public class level4 extends World
         addObject(rumput12,64*11,600);
         rumput rumput13 = new rumput();
         addObject(rumput13,64*12,600);
+        rumput rumput14 = new rumput();
+        addObject(rumput14,64*13,600);
+        rumput rumput15 = new rumput();
+        addObject(rumput15,64*14,600);
+        rumput rumput28 = new rumput();
+        addObject(rumput28,64*15,600);
+        rumput rumput29 = new rumput();
+        addObject(rumput29,64*16,600);
+        rumput rumput30 = new rumput();
+        addObject(rumput30,64*17,600);
+        rumput rumput31 = new rumput();
+        addObject(rumput31,64*18,600);
         kunci kunci = new kunci();
         addObject(kunci,64*3,600-64*2);
 
-        rumput rumput14 = new rumput();
-        addObject(rumput14,0,536);
-        rumput rumput15 = new rumput();
-        addObject(rumput15,64,536);
+        rumput rumput16 = new rumput();
+        addObject(rumput16,0,536);
         rumput rumput17 = new rumput();
-        addObject(rumput17,384,536);
+        addObject(rumput17,64,536);
+        rumput rumput18 = new rumput();
+        addObject(rumput18,384,536);
         rumput rumput27 = new rumput();
         addObject(rumput27,448,536);
         rumput rumput22 = new rumput();
@@ -73,8 +85,8 @@ public class level4 extends World
         addObject(rumput23,640,408);
         rumput rumput20 = new rumput();
         addObject(rumput20,192,536);
-        rumput rumput18 = new rumput();
-        addObject(rumput18,64*12,600-64*4);
+        rumput rumput19 = new rumput();
+        addObject(rumput19,64*12,600-64*4);
         tombol tombol = new tombol();
         addObject(tombol,64*12,600-64*5);
     }

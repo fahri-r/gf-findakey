@@ -16,7 +16,7 @@ public class level1 extends World
     public level1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1);
+        super(1160, 600, 1);
         prepare();
         showText("Get the key to open the door",getWidth()/2,getHeight()/2);
     }
@@ -52,6 +52,18 @@ public class level1 extends World
         addObject(rumput12,64*11,600);
         rumput rumput13 = new rumput();
         addObject(rumput13,64*12,600);
+        rumput rumput14 = new rumput();
+        addObject(rumput14,64*13,600);
+        rumput rumput15 = new rumput();
+        addObject(rumput15,64*14,600);
+        rumput rumput16 = new rumput();
+        addObject(rumput16,64*15,600);
+        rumput rumput17 = new rumput();
+        addObject(rumput17,64*16,600);
+        rumput rumput19 = new rumput();
+        addObject(rumput19,64*17,600);
+        rumput rumput18 = new rumput();
+        addObject(rumput18,64*18,600);
         kunci kunci = new kunci();
         addObject(kunci,64*4,600-64);
     }

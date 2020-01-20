@@ -16,7 +16,7 @@ public class level5 extends World
     public level5()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1);
+        super(1160, 600, 1);
         prepare();
     }
     
@@ -62,6 +62,18 @@ public class level5 extends World
         addObject(duri12,64*11,580);
         duri duri13 = new duri();
         addObject(duri13,64*12,580);
+        duri duri14 = new duri();
+        addObject(duri14,64*13,580);
+        duri duri15 = new duri();
+        addObject(duri15,64*14,580);
+        duri duri16 = new duri();
+        addObject(duri16,64*15,580);
+        duri duri17 = new duri();
+        addObject(duri17,64*16,580);
+        duri duri18 = new duri();
+        addObject(duri18,64*17,580);
+        duri duri19 = new duri();
+        addObject(duri19,64*18,580);
         kunci kunci = new kunci();
         addObject(kunci,64*8,600-64*4);
         
