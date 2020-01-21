@@ -22,7 +22,7 @@ public void act()
 {
     timer--;
     if (timer % 33 == 0) updateImage();
-    if (timer < 1) Greenfoot.stop();
+    if (timer < 1)Greenfoot.setWorld(new gameOver());;
 }
  
 private void updateImage()
