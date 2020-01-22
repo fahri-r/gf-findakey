@@ -15,7 +15,7 @@ public class selectlv extends World
      */
     public selectlv()
     {    
-        super(1160, 600, 1); 
+        super(1111, 600, 1); 
         GreenfootImage bg = new GreenfootImage("background.png");
         bg.scale(getWidth(), getHeight());
         setBackground(bg);

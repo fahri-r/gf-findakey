@@ -17,7 +17,7 @@ public class level3 extends World
     public level3()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1160, 600, 1);
+        super(1111, 600, 1);
         timer.timer=33*15; 
         prepare();
     }
@@ -65,8 +65,6 @@ public class level3 extends World
         addObject(tanah17,64*16,600);
         tanah tanah19 = new tanah();
         addObject(tanah19,64*17,600);
-        tanah tanah18 = new tanah();
-        addObject(tanah18,64*18,600);
         //tingkat 2
         tanah tanah14 = new tanah();
         addObject(tanah14,0,600-64);

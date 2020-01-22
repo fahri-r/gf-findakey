@@ -13,10 +13,11 @@ public class level1 extends World
      * 
      */
     public static int lv1=1;
+    private GreenfootImage teks;
     public level1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1160, 600, 1);
+        super(1111, 600, 1);
         timer.timer=33*15;
         prepare();
         showText("Get the key to open the door",getWidth()/2,getHeight()/2-200);
@@ -58,19 +59,17 @@ public class level1 extends World
         addObject(rumput14,64*13,600);
         rumput rumput15 = new rumput();
         addObject(rumput15,64*14,600);
-        rumput rumput16 = new rumput();
-        addObject(rumput16,64*15,600);
+        tanah tanah16 = new tanah();
+        addObject(tanah16,64*15,600);
         tanah tanah20 = new tanah();
         addObject(tanah20,64*16,600);
         tanah tanah19 = new tanah();
         addObject(tanah19,64*17,600);
-        tanah tanah18 = new tanah();
-        addObject(tanah18,64*18,600);
         kunci kunci = new kunci();
         addObject(kunci,64*17,600-64*3);
         timer timer = new timer();
         addObject(timer,104,119);
-        
+
         //tingkat 2
         rumput rumput5 = new rumput();
         addObject(rumput5,64*4,600-64);
@@ -79,19 +78,16 @@ public class level1 extends World
         rumput rumput9 = new rumput();
         addObject(rumput9,64*8,600-64);
         rumput rumput20 = new rumput();
-        addObject(rumput20,64*16,600-64);
-        tanah tanah16 = new tanah();
-        addObject(tanah16,64*17,600-64);
-        tanah tanah17 = new tanah();
-        addObject(tanah17,64*18,600-64);
-        
+        addObject(rumput20,64*15,600-64);
+        rumput rumput18 = new rumput();
+        addObject(rumput18,64*16,600-64);
+        tanah tanah13 = new tanah();
+        addObject(tanah13,64*17,600-64);
+
         //tingkat 3
         rumput rumput7 = new rumput();
         addObject(rumput7,64*6,600-64*2);
         rumput rumput17 = new rumput();
         addObject(rumput17,64*17,600-64*2);
-        rumput rumput18 = new rumput();
-        addObject(rumput18,64*18,600-64*2);
-        
     }
 }
