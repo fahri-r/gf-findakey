@@ -28,7 +28,7 @@ public class level4 extends World
         gergaji gergaji = new gergaji();
         addObject(gergaji,580,600-70);
         gergaji gergaji2 = new gergaji();
-        addObject(gergaji2,64*11+2,600-160);
+        addObject(gergaji2,64*11+5,600-160);
         player player = new player();
         addObject(player,55,440);
         duri duri = new duri();
@@ -57,18 +57,18 @@ public class level4 extends World
         addObject(rumput12,64*11,600);
         rumput rumput13 = new rumput();
         addObject(rumput13,64*12,600);
-        rumput rumput14 = new rumput();
-        addObject(rumput14,64*13,600);
-        rumput rumput15 = new rumput();
-        addObject(rumput15,64*14,600);
-        rumput rumput28 = new rumput();
-        addObject(rumput28,64*15,600);
-        rumput rumput29 = new rumput();
-        addObject(rumput29,64*16,600);
-        rumput rumput30 = new rumput();
-        addObject(rumput30,64*17,600);
+        tanah tanah14 = new tanah();
+        addObject(tanah14,64*13,600);
+        duri duri15 = new duri();
+        addObject(duri15,64*14,600-15);
+        duri duri28 = new duri();
+        addObject(duri28,64*15,600-15);
+        tanah tanah29 = new tanah();
+        addObject(tanah29,64*16,600);
+        tanah tanah30 = new tanah();
+        addObject(tanah30,64*17,600);
         kunci kunci = new kunci();
-        addObject(kunci,64*3,600-64*2);
+        addObject(kunci,64*17-32,600-64*2);
 
         rumput rumput16 = new rumput();
         addObject(rumput16,0,536);
@@ -90,5 +90,13 @@ public class level4 extends World
         addObject(tombol,64*12,600-64*5);
         timer timer = new timer();
         addObject(timer,104,119);
+        
+        
+        rumput rumput14 = new rumput();
+        addObject(rumput14,64*13,600-64);
+        rumput rumput29 = new rumput();
+        addObject(rumput29,64*16,600-64);
+        rumput rumput30 = new rumput();
+        addObject(rumput30,64*17,600-64);
     }
 }
