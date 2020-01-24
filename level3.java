@@ -25,9 +25,13 @@ public class level3 extends World
     public void prepare()
     {
         pintu pintu = new pintu();
-        addObject(pintu,64*12,600-64*3);
+        addObject(pintu,64*12-32,600-64*3);
+        gergaji gergaji= new gergaji();
+        addObject(gergaji,64*16-32,600-74);
         player player = new player();
-        addObject(player,40,376);
+        addObject(player,64*5-32,376);
+        tombol tombol = new tombol();
+        addObject(tombol,45,600-64*3);
         //tingkat1
         tanah tanah = new tanah();
         addObject(tanah,0,600);
@@ -55,8 +59,8 @@ public class level3 extends World
         addObject(tanah12,64*11,600);
         tanah tanah13 = new tanah();
         addObject(tanah13,64*12,600);
-        tanah tanah26 = new tanah();
-        addObject(tanah26,64*13,600);
+        duri duri26 = new duri();
+        addObject(duri26,64*13,600-20);
         tanah tanah20 = new tanah();
         addObject(tanah20,64*14,600);
         tanah tanah16 = new tanah();
@@ -93,7 +97,11 @@ public class level3 extends World
         tanah tanah21 = new tanah();
         addObject(tanah21,64*12,600-64);
         kunci kunci = new kunci();
-        addObject(kunci,64*4,600-64*3);
+        addObject(kunci,64*16-32,600-74);
+        rumput rumput21 = new rumput();
+        addObject(rumput21,64*17,600-64);
+        rumput rumput24 = new rumput();
+        addObject(rumput24,64*14,600-64);
         
         
         rumput rumput14 = new rumput();
