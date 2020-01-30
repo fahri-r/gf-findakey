@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class level5 extends World
+public class level5 extends level
 {
     /**
      * Constructor for objects of class level5.
@@ -15,14 +15,13 @@ public class level5 extends World
     public static int lv5=0;
     public level5()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1111, 600, 1);
         timer.timer=33*25;
         prepare();
     }
     
     public void prepare()
     {
+        retry=5;
         tombol tombol = new tombol();
         addObject(tombol,64*15+32,600-64*2);
         gergaji gergaji = new gergaji();

@@ -26,7 +26,7 @@ public class menu extends World
     }
     public void music()
     {
-        backgroundMusic = new GreenfootSound("bgmusic.wav");
+        backgroundMusic = new GreenfootSound("intro.wav");
         backgroundMusic.playLoop();
         music=1;
     }
@@ -38,16 +38,22 @@ public class menu extends World
     {
         
         credits credits = new credits();
-        addObject(credits,getWidth()/2,getHeight()/2+150);
+        addObject(credits,getWidth()/2-150,getHeight()/2+150);
+        objective objective = new objective();
+        addObject(objective,getWidth()/2+150,getHeight()/2+150);
+        
         select select = new select();
-        addObject(select,getWidth()/2,getHeight()/2+30);
+        addObject(select,getWidth()/2+150,getHeight()/2-30);
         start start = new start();
-        addObject(start,getWidth()/2,getHeight()/2-90);
+        addObject(start,getWidth()/2-150,getHeight()/2-30);
+        
         title title = new title();
-        addObject(title,getWidth()/2-30,getHeight()/2-190);
+        addObject(title,getWidth()/2,getHeight()/2-190);
+        
         kunci kunci = new kunci();
         addObject(kunci,getWidth()/2+170,getHeight()/2-185);
+        
         cover cover = new cover();
-        addObject(cover,getWidth()/2-200,getHeight()/2);
+        addObject(cover,getWidth()/2,getHeight()/2);
     }
 }

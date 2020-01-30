@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class level1 extends World
+public class level1 extends level
 {
     /**
      * Constructor for objects of class level1.
@@ -16,15 +16,15 @@ public class level1 extends World
     private GreenfootImage teks;
     public level1()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1111, 600, 1);
         timer.timer=33*15;
         prepare();
         showText("Get the key to open the door",getWidth()/2,getHeight()/2-200);
     }
     
+    
     public void prepare()
     {
+        retry=1;
         pintu pintu = new pintu();
         addObject(pintu,64*11,600-64);
         player player = new player();

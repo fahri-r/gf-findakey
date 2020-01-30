@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class level3 extends World
+public class level3 extends level
 {
 
     /**
@@ -16,14 +16,13 @@ public class level3 extends World
     public static int lv3=0;
     public level3()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1111, 600, 1);
         timer.timer=33*15; 
         prepare();
     }
     
     public void prepare()
     {
+        retry=3;
         pintu pintu = new pintu();
         addObject(pintu,64*12-32,600-64*3);
         gergaji gergaji= new gergaji();

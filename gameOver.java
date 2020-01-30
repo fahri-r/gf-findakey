@@ -28,11 +28,15 @@ public class gameOver extends World
      */
     private void prepare()
     {
+        level.backgroundMusic.stop();
+        level.music=0;
         over over = new over();
         addObject(over,getWidth()/2,getHeight()/2);
         menu_btn menu_btn = new menu_btn();
-        addObject(menu_btn,getWidth()/2+100,getHeight()/2+200);
-        start start = new start();
-        addObject(start,getWidth()/2-100,getHeight()/2+200);
+        addObject(menu_btn,getWidth()/2+200,getHeight()/2+200);
+        select select = new select();
+        addObject(select,getWidth()/2,getHeight()/2+200);
+        retry retry = new retry();
+        addObject(retry,getWidth()/2-200,getHeight()/2+200);
     }
 }

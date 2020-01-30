@@ -30,7 +30,7 @@ public class pintu extends Actor
                 level5.lv5=1;
                 Greenfoot.setWorld(new level5());}
             else if(getWorld()instanceof level5){
-                Greenfoot.setWorld(new gameOver());}
+                Greenfoot.setWorld(new win());}
             }else delay--;
         }
         // Add your action code here.

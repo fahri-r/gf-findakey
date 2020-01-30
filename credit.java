@@ -16,7 +16,7 @@ public class credit extends World
     public credit()
     {    
         super(1111, 600, 1); 
-        GreenfootImage bg = new GreenfootImage("background.png");
+        GreenfootImage bg = new GreenfootImage("credit.png");
         bg.scale(getWidth(), getHeight());
         setBackground(bg);
         prepare();
@@ -28,13 +28,6 @@ public class credit extends World
      */
     private void prepare()
     {
-       showText("greenfoot.org",getWidth()/2,getHeight()/2-90);
-       showText("Muhammad Fahri Ramadhan - Coder",getWidth()/2,getHeight()/2-60);
-       showText("Kenney Game Studio - Game Assets",getWidth()/2,getHeight()/2-30);
-       showText("pzUH - Button",getWidth()/2,getHeight()/2); 
-       showText("TriMil - Jump Method",getWidth()/2,getHeight()/2+30);
-       showText("Bethany McCarthy - Background Music",getWidth()/2,getHeight()/2+60);
-       showText("Jonas Tyroller - SoundFX",getWidth()/2,getHeight()/2+90);
         menu_btn menu_btn = new menu_btn();
         addObject(menu_btn,getWidth()/2,getHeight()/2+230);
     }
