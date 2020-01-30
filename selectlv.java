@@ -29,16 +29,16 @@ public class selectlv extends World
     private void prepare()
     {
         lvl1 lvl1 = new lvl1();
-        addObject(lvl1,getWidth()/2,getHeight()/5);
+        addObject(lvl1,getWidth()/2-250,getHeight()/4);
         lvl2 lvl2 = new lvl2();
-        addObject(lvl2,getWidth()/2,getHeight()/5+100);
+        addObject(lvl2,getWidth()/2,getHeight()/4);
         lvl3 lvl3 = new lvl3();
-        addObject(lvl3,getWidth()/2,getHeight()/5+200);
+        addObject(lvl3,getWidth()/2+250,getHeight()/4);
         lvl4 lvl4 = new lvl4();
-        addObject(lvl4,getWidth()/2,getHeight()/5+300);
+        addObject(lvl4,getWidth()/2+150,getHeight()/4+130);
         lvl5 lvl5 = new lvl5();
-        addObject(lvl5,getWidth()/2,getHeight()/5+400);
+        addObject(lvl5,getWidth()/2-150,getHeight()/4+130);
         menu_btn menu_btn = new menu_btn();
-        addObject(menu_btn,getWidth()/2-250,getHeight()/5+400);
+        addObject(menu_btn,getWidth()/2,getHeight()/5+400);
     }
 }
