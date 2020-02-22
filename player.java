@@ -11,7 +11,6 @@ public class player extends Mover
     public boolean facingRight;
     private GreenfootSound hit = new GreenfootSound("hit.wav");
     private GreenfootSound jump = new GreenfootSound("jump.wav");
-    private GreenfootSound walk = new GreenfootSound("walk.wav");
     public player()
     {
         setMovementSpeed(6);

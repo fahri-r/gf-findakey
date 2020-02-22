@@ -35,9 +35,9 @@ public class selectlv extends World
         lvl3 lvl3 = new lvl3();
         addObject(lvl3,getWidth()/2+250,getHeight()/4);
         lvl4 lvl4 = new lvl4();
-        addObject(lvl4,getWidth()/2+150,getHeight()/4+130);
+        addObject(lvl4,getWidth()/2-150,getHeight()/4+130);
         lvl5 lvl5 = new lvl5();
-        addObject(lvl5,getWidth()/2-150,getHeight()/4+130);
+        addObject(lvl5,getWidth()/2+150,getHeight()/4+130);
         menu_btn menu_btn = new menu_btn();
         addObject(menu_btn,getWidth()/2,getHeight()/5+400);
     }
